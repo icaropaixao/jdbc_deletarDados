@@ -23,8 +23,6 @@ public class DB {
         }
         return conn;
     }
-
-
     // ler o  Db.properties
     private static Properties loadProperties(){
         try (FileInputStream fs = new FileInputStream("db.properties")){
